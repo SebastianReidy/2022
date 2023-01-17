@@ -38,7 +38,7 @@ We allow a grace period of 15 minutes for you to submit your solved IPython note
 8. You are allowed to use any built-in Python library that comes with Anaconda.
 9. You are allowed to use [Google Colab](https://colab.research.google.com/) or [EPFL Noto](https://noto.epfl.ch), however, it's your responsibility to ensure that the required Python packages (see the section [Conda environment](#Conda-environment) for details) are accessible in the execution environment and platform of choice.
 10. There are **three tasks:** 1, 2, and 3, which are further split into several subtasks.
-11. The tasks are **independent** of each other, and you can solve them in your order of preference.
+11. Tasks 2 and 3 are independent of each other (although conceptually related).
 12. For questions containing the **/Discuss:/** prefix, answer not with code, but with a textual explanation (in markdown).
 13. Don't forget to add a textual description of your thought process, the assumptions you made, and your results!
 14. Please write all your comments in English, and use meaningful variable names in your code.
@@ -60,7 +60,7 @@ We allow a grace period of 15 minutes for you to submit your solved IPython note
    *Note-3: Multiple submissions are allowed. We will only consider the **latest** submission before the deadline and ignore all other previous submissions.*
    * On successful submission, you should receive an acknowledgement email from forms-receipts-noreply@google.com. If you don't receive an acknowledgement email (check your ‘spam’ and ‘junk’ folders as well) by 19:30, please notify us by sending an email to ada-core-assistants-2022@groupes.epfl.ch.
    * In case of problems with the form, send your Jupyter Notebook via email to ada-core-assistants-2022@groupes.epfl.ch. This is reserved only for those who encounter problems with the submission - you need to have a **reasonable justification** for using this backup.
-* For students **without** an EPFL email address:
+* For students either **without** an EPFL email address or participating in the **extramural exam**:
    * Your file has to be named (in *titlecase*) as "YourFirstName_YourLastName.ipynb". For example, if your first name is 'Abc', and last name is 'Xyz', please name your file as 'Abc_Xyz.ipynb'.   
    **Note: We won't grade your exam if the file is not properly named, thus, be extra careful in this regard.**   
    * Send your Jupyter Notebook (1 file) via email to ada-core-assistants-2022@groupes.epfl.ch.
