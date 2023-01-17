@@ -137,6 +137,13 @@ y_pred = cross_val_predict(logistic, X, y, cv=10, method="predict_proba")
 fpr, tpr, _ = roc_curve(y, y_pred[:, 1])
 auc_score = auc(fpr, tpr)
 ```
+- an example to do cross-validation and prediction in one go
+```{python}
+ridge = Ridge()
+ridge_hyper = {'alpha':(0.001, 0.01, 0.1)}
+ridge_cv = GridSearchCV(ridge, ridge_hyper, cv=3)
+ridge_cv.fit(X_train, y_train)
+```
 
 
 ### Unsupervised learning
